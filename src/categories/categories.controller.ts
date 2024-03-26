@@ -13,7 +13,7 @@ import { CategoriesService } from './categories.service';
 import { CreateCategoryDto } from './dto/create-category.dto';
 import { UpdateCategoryDto } from './dto/update-category.dto';
 import { ApiTags } from '@nestjs/swagger';
-import { ResponseMessage } from 'src/users/users.controller';
+import { ResponseMessage } from 'src/shared/comman/responsemsg';
 
 @ApiTags('categories')
 @Controller('categories')

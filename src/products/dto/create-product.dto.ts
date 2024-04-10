@@ -27,7 +27,6 @@ export class CreateProductDto {
 
   @ApiProperty()
   @IsArray()
-  @IsString({ each: true })
   @ArrayMinSize(1)
   productimgs: string[];
 

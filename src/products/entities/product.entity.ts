@@ -13,7 +13,7 @@ export class Product {
   @Column({ type: 'varchar' })
   categoryid: string;
 
-  @Column({ type: 'varchar' })
+  @Column('text', { array: true })
   productimgs: string[];
 
   @Column({ type: 'varchar' })

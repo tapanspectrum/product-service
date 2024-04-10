@@ -74,6 +74,7 @@ export class ProductsService {
     product.updatedby = updateProductDto.updatedby || '';
     product.updateddate = new Date().toString();
     product.isactive = updateProductDto.isactive;
+    console.log('product', product);
     return this.prodRepository.update(id, product);
   }
 

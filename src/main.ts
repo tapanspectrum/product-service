@@ -42,7 +42,7 @@ async function bootstrap() {
   });
   app.enableCors({
     origin: true,
-    methods: 'GET, POST',
+    // methods: 'GET, POST',
     credentials: true,
   });
   const config = new DocumentBuilder()
